@@ -77,6 +77,7 @@ body {
   color: white;
   border-radius: 10px;
   padding: 8px 16px;
+  transition: 0.2s;
 }
 
 .modal-page .tombol button.quit {
@@ -91,6 +92,7 @@ body {
 
 .modal-page .tombol button.quit:hover {
   background: rgba(79, 53, 202, 0.7);
+  transition: 0.2s;
 }
 
 /* Header */
@@ -141,6 +143,7 @@ body {
 
 .header .atas .keluar button:hover {
   background: rgba(255, 23, 0, 0.6);
+  transition: 0.2s;
 }
 
 .header .bawah {
@@ -381,6 +384,7 @@ body {
 
 .footer .navigasi button:hover {
   transform: scale(1.25);
+  transition: 0.2s;
 }
 
 @media (min-width: 768px) {

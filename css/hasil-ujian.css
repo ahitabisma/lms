@@ -193,6 +193,7 @@ body {
 
 .isi button:hover {
   background: rgba(79, 53, 202, 0.7);
+  transition: 0.2s;
 }
 
 @media (min-width: 768px) {

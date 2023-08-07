@@ -102,6 +102,7 @@ body {
 
 .modal button[type="submit"]:hover {
   background: rgba(255, 176, 83, 0.7);
+  transition: 0.2s;
 }
 /* Header */
 .header {
@@ -200,6 +201,7 @@ body {
 
 .kotak-ujian:hover {
   transform: scale(1.05);
+  transition: 0.2s;
 }
 
 .terbaru {
