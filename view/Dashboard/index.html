@@ -63,7 +63,7 @@
 
       <!-- Isi -->
       <div class="isi">
-        <div class="kotak-ujian">
+        <a href="" class="kotak-ujian">
           <img src="../../img/amico.png" alt="" />
           <div class="keterangan">
             <p class="mapel">Ujian Pendidikan Kewarganegaraan</p>
@@ -71,17 +71,25 @@
               <p>New</p>
             </div>
           </div>
-        </div>
+        </a>
 
         <div class="terbaru">
           <div class="cari">
-            <input type="text" name="cari" id="cari" placeholder=" Search..." />
+            <div class="box">
+              <div class="icon">
+                <iconify-icon icon="iconamoon:search-light" width="20px" style="color: #868686"></iconify-icon>
+              </div>
+              <div class="input">
+                <input type="text" name="cari" id="cari" placeholder=" Search..." />
+              </div>
+            </div>
             <button onclick="showFilter()" id="filter">
               <iconify-icon icon="streamline:interface-setting-slider-horizontal-adjustment-adjust-controls-fader-horizontal-settings-slider" width="20" style="color: black"></iconify-icon>
             </button>
           </div>
         </div>
 
+        <p class="title">Materi dan Ujian</p>
         <a href="" class="list">
           <div class="gambar">
             <img src="../../img/dashboard-materi.png" alt="" />

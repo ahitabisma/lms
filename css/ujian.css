@@ -69,12 +69,14 @@ body {
   color: #4f35ca;
   font-size: 16px;
   font-weight: 700;
+  padding: 8px 16px;
 }
 
 .modal-page .tombol button.batal:hover {
   background: rgba(79, 53, 202, 0.2);
   color: white;
   border-radius: 10px;
+  padding: 8px 16px;
 }
 
 .modal-page .tombol button.quit {
@@ -217,8 +219,6 @@ body {
   flex-direction: column;
   box-sizing: border-box;
   width: 100%;
-  /* position: absolute; */
-  /* background-color: red; */
 }
 
 .list .kotak .jawaban .pilihan input[type="radio"] {
@@ -227,7 +227,6 @@ body {
 
 .list .kotak .jawaban .pilihan label {
   position: relative;
-  /* border: 1px solid black; */
   width: 100%;
   display: flex;
   align-items: center;
@@ -382,4 +381,111 @@ body {
 
 .footer .navigasi button:hover {
   transform: scale(1.25);
+}
+
+@media (min-width: 768px) {
+  /* Modal */
+  .modal-page .title {
+    font-size: 18px;
+  }
+
+  .modal-page .deskripsi {
+    font-size: 16px;
+  }
+
+  .modal-page .tombol button.batal {
+    font-size: 18px;
+    padding: 12px 20px;
+  }
+  .modal-page .tombol button.batal:hover {
+    padding: 12px 20px;
+  }
+
+  .modal-page .tombol button.quit {
+    font-size: 18px;
+    padding: 12px 20px;
+  }
+
+  /* Header */
+  .header {
+    height: 120px;
+  }
+
+  .header .atas .waktu {
+    font-size: 18px;
+    padding: 12px;
+    gap: 12px;
+  }
+
+  .header .atas .keluar button {
+    font-size: 18px;
+  }
+
+  .header .bawah button {
+    font-size: 18px;
+  }
+
+  .header .bawah button.active {
+    font-size: 18px;
+  }
+
+  /* Isi */
+  .isi {
+    margin-top: 135px;
+  }
+
+  .isi .tab-content .list .title {
+    font-size: 14px;
+  }
+
+  .isi .tab-content .list .kotak img,
+  .isi .tab-content .list .kotak video,
+  .isi .tab-content .list .kotak audio {
+    width: 80%;
+    border-radius: 10px;
+    position: relative;
+    left: 50%;
+    transform: translate(-50%, 0);
+  }
+
+  .list .kotak .soal {
+    font-size: 18px;
+    margin: 16px 0;
+  }
+
+  .list .kotak .jawaban .pilihan label {
+    font-size: 18px;
+  }
+
+  .list-essay .title {
+    font-size: 14px;
+  }
+
+  .list-essay .kotak {
+    font-size: 18px;
+  }
+
+  .list-essay .kotak textarea {
+    font-size: 18px;
+  }
+
+  .quiz-navigasi p:first-child {
+    font-size: 18px;
+  }
+
+  .quiz-navigasi button {
+    font-size: 16px;
+    width: 34px;
+    height: 34px;
+    margin: 8px 4px;
+  }
+
+  /* Footer */
+  .footer .deskripsi p:first-child {
+    font-size: 16px;
+  }
+
+  .footer .deskripsi p:last-child {
+    font-size: 12px;
+  }
 }

@@ -82,7 +82,7 @@ body {
   justify-content: center;
   gap: 14px;
   margin: 20px 0 0 0;
-  boz-sizing: border-box;
+  box-sizing: border-box;
 }
 
 .isi .alert .fa-square-check {
@@ -117,13 +117,8 @@ body {
   font-size: 18px;
   font-weight: 700;
   padding: 0 10% 0 10%;
-}
-
-.isi .hasil .garis-judul {
-  width: 39px;
-  height: 1px;
-  margin: 4px 0 20px 0;
-  background-color: black;
+  text-decoration: underline 2px;
+  margin: 0 0 20px 0;
 }
 
 .isi .hasil .kotak {
@@ -181,7 +176,7 @@ body {
 .isi button {
   margin: 32px auto;
   display: flex;
-  width: 150px;
+  width: 180px;
   height: 41px;
   padding: 8px 16px;
   justify-content: center;
@@ -191,8 +186,86 @@ body {
   background: #4f35ca;
   color: white;
   border: none;
+  color: #fff;
+  font-size: 16px;
+  font-weight: 700;
 }
 
 .isi button:hover {
   background: rgba(79, 53, 202, 0.7);
+}
+
+@media (min-width: 768px) {
+  /* Header */
+  .header {
+    font-size: 20px;
+  }
+
+  /* Isi */
+  .isi .kiri .sparkles-1 {
+    transform: translate(-100%, 50%);
+  }
+  .isi .kiri .sparkles-2 {
+    transform: translate(-80%, -80%);
+  }
+  .isi .kanan .sparkles-3 {
+    transform: translate(50%, -50%);
+  }
+  .isi .kanan .sparkles-4 {
+    transform: translate(80%, 40%);
+  }
+
+  .isi .selesai p:first-child {
+    font-size: 22px;
+    margin: 28px 0 16px 0;
+  }
+
+  .isi .selesai p:nth-child(2),
+  .isi .selesai p:last-child {
+    font-size: 16px;
+  }
+
+  .isi .alert {
+    width: 80%;
+    gap: 40px;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, 0);
+    margin: 10px 0 10px 0;
+  }
+
+  .isi .alert .deskripsi p:first-child {
+    font-size: 18px;
+  }
+
+  .isi .alert .deskripsi p:last-child {
+    font-size: 14px;
+  }
+
+  .isi .hasil .judul {
+    font-size: 20px;
+    margin: 10px 0 22px 0;
+  }
+
+  .isi .hasil .kotak {
+    padding: 24px;
+  }
+
+  .isi .hasil .kotak .guru,
+  .isi .hasil .kotak .total-waktu,
+  .isi .hasil .kotak .waktu {
+    gap: 20px;
+  }
+
+  .isi .hasil .kotak .keterangan .title,
+  .isi .hasil .kotak .keterangan .desc {
+    font-size: 18px;
+  }
+
+  .isi button {
+    font-size: 18px;
+    width: 200px;
+    height: 50px;
+  }
 }
