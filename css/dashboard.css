@@ -19,7 +19,7 @@ body {
   box-sizing: border-box;
   backdrop-filter: blur(4px);
   z-index: 99;
-  /* display: none; */
+  display: none;
 }
 
 .modal {

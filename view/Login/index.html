@@ -8,6 +8,13 @@
     <link rel="stylesheet" href="../../css/reset.css" />
   </head>
   <body>
+    <!-- Loader -->
+    <div id="loader">
+      <div class="loader">
+        <span class="loader-page"></span>
+      </div>
+    </div>
+
     <div class="ornamen1">
       <img src="../../img/bulat login1.png" alt="" />
     </div>
@@ -32,12 +39,14 @@
           <input type="text" name="username" placeholder="Input your password..." />
         </form>
         <div class="btn">
-          <button type="submit">Login</button>
+          <button type="submit" onclick="window.location.href='../Dashboard/'">Login</button>
         </div>
         <div class="footer">
           <p>www.gowebindonesia.co.id</p>
         </div>
       </div>
     </div>
+
+    <script src="../../script/script.js"></script>
   </body>
 </html>

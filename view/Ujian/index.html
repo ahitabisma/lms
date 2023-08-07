@@ -9,6 +9,13 @@
     <script src="https://code.iconify.design/iconify-icon/1.0.7/iconify-icon.min.js"></script>
   </head>
   <body>
+    <!-- Loader -->
+    <div id="loader">
+      <div class="loader">
+        <span class="loader-page"></span>
+      </div>
+    </div>
+
     <div class="header">
       <iconify-icon icon="octicon:arrow-left-16"></iconify-icon>
       <p>Ujian</p>
@@ -54,17 +61,19 @@
       <img src="../../img/Group.png" alt="" />
       <div class="teks">
         <div class="p1">
-          <p>Anda Masih Dalam Proses</p>
+          <p>Anda Akan</p>
           <p>Melakukan Ujian</p>
         </div>
         <div class="p2">
           <p>Silahkan klik tombol di bawah ini untuk</p>
-          <p>Melanjutkan Ujian</p>
+          <p>Memulai Ujian</p>
         </div>
       </div>
     </div>
     <div class="btn">
-      <button type="">Lanjut Ujian</button>
+      <button onclick="window.location.href='./ujian.html'">Mulai Ujian</button>
     </div>
+
+    <script src="../../script/script.js"></script>
   </body>
 </html>

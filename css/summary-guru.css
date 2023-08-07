@@ -33,17 +33,17 @@ body {
   margin-top: 0.5rem;
 }
 
-.profile {
+.profil {
   margin-top: 6rem;
   text-align: center;
 }
-.profile .name {
+.profil .name {
   margin-top: 1rem;
   font-size: 1.125rem;
   font-weight: 600;
   margin-bottom: 1rem;
 }
-.profile .mapel {
+.profil .mapel {
   margin-top: 1rem;
   font-size: 0.6875rem;
   font-weight: 500;
@@ -194,7 +194,6 @@ body {
 
 /* bar */
 .bar {
-  /* box-sizing: border-box; */
   display: flex;
   justify-content: space-between;
   width: 100%;
@@ -212,6 +211,7 @@ body {
   width: 25%;
   text-decoration: none;
 }
+
 .bar a:hover iconify-icon {
   color: #4f35ca;
   filter: drop-shadow(0 5px 2px #a4a8ad);

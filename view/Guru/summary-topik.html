@@ -13,16 +13,22 @@
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
       integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
       crossorigin="anonymous"
-      referrerpolicy="no-referrer"
-    />
+      referrerpolicy="no-referrer" />
   </head>
   <body>
+    <!-- Loader -->
+    <div id="loader">
+      <div class="loader">
+        <span class="loader-page"></span>
+      </div>
+    </div>
+
     <div class="container">
       <div class="header">
         <iconify-icon icon="octicon:arrow-left-16"></iconify-icon>
         <p>Summary</p>
       </div>
-      <div class="profile">
+      <div class="profil">
         <img src="../../img/teacher.png" alt="" />
         <p class="name">Wagimin, S.Pd, M.Pd</p>
         <p class="mapel">Pendidikan Pancasila dan Kewarganegaraan</p>
@@ -71,21 +77,22 @@
       </div>
       <!-- Bar -->
       <div class="bar">
-        <a href="" class="home">
-          <iconify-icon icon="mingcute:home-5-fill" width="30" height="30" class="active"></iconify-icon>
+        <a href="../Dashboard/" class="home">
+          <iconify-icon icon="mingcute:home-5-fill" width="30" height="30" class=""></iconify-icon>
         </a>
-        <a href="" class="guru">
-          <iconify-icon icon="fa6-solid:user-group" width="30" height="30"></iconify-icon>
+        <a href="./index.html" class="guru">
+          <iconify-icon icon="fa6-solid:user-group" width="30" height="30" class="active"></iconify-icon>
         </a>
-        <a href="" class="notif">
+        <a href="../Notifikasi/" class="notif">
           <iconify-icon icon="ion:notifications" width="30" height="30"></iconify-icon>
         </a>
-        <a href="" class="profile">
+        <a href="../Profile/" class="profile">
           <iconify-icon icon="heroicons-solid:user" width="30" height="30"></iconify-icon>
         </a>
       </div>
     </div>
 
     <script src="https://code.iconify.design/iconify-icon/1.0.7/iconify-icon.min.js"></script>
+    <script src="../../script/script.js"></script>
   </body>
 </html>
