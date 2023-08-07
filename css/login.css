@@ -1,0 +1,106 @@
+body {
+  width: 100vwh;
+  height: 100vh;
+  background-color: #4f35ca;
+}
+.ornamen1 {
+  position: relative;
+}
+.ornamen2 {
+  text-align: right;
+}
+.ornamen2 .img {
+  position: absolute;
+  display: flex;
+}
+.title {
+  margin-top: -19rem;
+  padding-top: 5rem;
+  text-align: center;
+}
+.title img {
+  width: 190px;
+  height: 77px;
+}
+.title p {
+  padding-top: 1rem;
+  color: white;
+  font-size: 16px;
+}
+
+.container {
+  margin: auto;
+  margin-top: 5rem;
+  padding: 0rem 3rem 0rem 3rem;
+  background-color: white;
+  border-radius: 2rem 2rem 0rem 0rem;
+}
+.title-content {
+  padding-top: 2rem;
+  text-align: center;
+}
+.title-content :first-child {
+  font-size: 28px;
+  font-weight: bold;
+}
+.title-content .garis {
+  display: flex;
+  margin: 1.5rem 5rem 1.5rem 5rem;
+  align-items: center;
+  padding: 0.04rem;
+  background-color: black;
+  align-content: center;
+}
+.title-content :last-child {
+  font-size: 11px;
+  font-weight: bold;
+  color: #bebec9;
+}
+
+.form {
+  padding-top: 3rem;
+  text-align: center;
+}
+.form p {
+  text-align: left;
+  font-size: 12px;
+  font-weight: 600;
+  padding-left: 1rem;
+}
+input {
+  margin-top: 0.5rem;
+  margin-bottom: 1rem;
+  width: 80%;
+  padding: 12px;
+  outline: none;
+  border: 1px solid #bebec9;
+  border-radius: 12px;
+  background-color: #407cff14;
+  font-size: small;
+  font-weight: 500;
+  color: #bebec9;
+}
+input:focus {
+  border: #4f35ca 2px solid;
+}
+.btn {
+  text-align: center;
+}
+button {
+  text-align: center;
+  margin-top: 1rem;
+  padding: 13px;
+  width: 65%;
+  background-color: #4f35ca;
+  border-radius: 11px;
+  border: none;
+  color: white;
+  font-weight: bold;
+  box-shadow: 0px 1px 2px 2px rgba(0, 0, 0, 0.114);
+}
+.footer p {
+  text-align: center;
+  color: #bebec9;
+  margin-top: 3rem;
+  padding-bottom: 4rem;
+}
