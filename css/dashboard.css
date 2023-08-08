@@ -238,7 +238,7 @@ body {
 
 .terbaru .cari .box .input input[type="text"] {
   height: 48px;
-  background-color: red;
+  background-color: transparent;
   outline: none;
   border: none;
   border-radius: 10px;
