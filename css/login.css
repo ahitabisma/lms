@@ -30,6 +30,7 @@ body {
 }
 
 .container {
+  width: 100vwh;
   margin: auto;
   margin-top: 5rem;
   padding: 0rem 3rem 0rem 3rem;
@@ -53,26 +54,28 @@ body {
   align-content: center;
 }
 .title-content :last-child {
-  font-size: 11px;
-  font-weight: bold;
+  font-size: 0.6875rem;
+  font-style: normal;
+  font-weight: 800;
   color: #bebec9;
+  letter-spacing: 0.055rem;
 }
 
 .form {
   padding-top: 3rem;
+  padding: 3rem 2rem 0rem 2rem;
   text-align: center;
 }
 .form p {
   text-align: left;
   font-size: 12px;
   font-weight: 600;
-  padding-left: 1rem;
 }
 input {
   display: inline-block;
   margin-top: 0.5rem;
   margin-bottom: 1rem;
-  width: 80%;
+  width: 100%;
   padding: 12px;
   outline: none;
   border: 1px solid #bebec9;
@@ -87,6 +90,7 @@ input:focus {
 }
 .btn {
   text-align: center;
+  margin-left: ;
 }
 button {
   text-align: center;
@@ -107,8 +111,8 @@ button:hover {
 .footer p {
   text-align: center;
   color: #bebec9;
-  margin-top: 3rem;
-  padding-bottom: 4rem;
+  margin-top: 5rem;
+  padding-bottom: 3rem;
 }
 
 /* Empty Alert */
@@ -171,5 +175,15 @@ button:hover {
   }
   100% {
     transform: scale(1);
+  }
+}
+
+@media (min-width: 768px) {
+  .footer p {
+    margin-top: 30rem;
+    padding-bottom: 4rem;
+  }
+  .container {
+    width: 100vwh;
   }
 }
