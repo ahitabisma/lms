@@ -31,8 +31,11 @@ body {
 
 /* Body Notifikasi */
 .container .notifikasi {
-
     margin: 70px 0 100px 0;
+}
+
+.container .notifikasi a {
+    text-decoration: none;
 }
 
 /* Label Terbaru dan Bulanan */
