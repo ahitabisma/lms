@@ -34,7 +34,8 @@ body {
 }
 .kelas {
   margin-top: 0.75rem;
-  display: flex;
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 3fr));
   gap: 0.5rem;
   text-align: center;
 }
@@ -131,31 +132,6 @@ iconify-icon {
   font-weight: 600;
   margin-top: 0.2rem;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /* Bar */
 .bar {

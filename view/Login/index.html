@@ -15,15 +15,25 @@
       </div>
     </div>
 
-    <div class="ornamen1">
-      <img src="../../img/bulat login1.png" alt="" />
-    </div>
-    <div class="ornamen2">
-      <img src="../../img/bulat login2.png" alt="" />
-    </div>
-    <div class="title">
-      <img src="../../img/logo1.png" alt="logo lms goweb" />
-      <p>Selamat Datang di LMS</p>
+    <!-- header -->
+    <div>
+      <div class="empty-alert" id="emptyAlert">
+        <div class="box">
+          <iconify-icon icon="system-uicons:cross-circle" style="font-size: 4.5rem"></iconify-icon>
+          <p>Login Gagal</p>
+          <button onclick="closeEmptyAlert()">kembali</button>
+        </div>
+      </div>
+      <div class="ornamen1">
+        <img src="../../img/bulat login1.png" alt="" />
+      </div>
+      <div class="ornamen2">
+        <img src="../../img/bulat login2.png" alt="" />
+      </div>
+      <div class="title">
+        <img src="../../img/logo1.png" alt="logo lms goweb" />
+        <p>Selamat Datang di LMS</p>
+      </div>
     </div>
     <div class="container">
       <div class="title-content">
@@ -32,21 +42,45 @@
         <p>Software Sekolah by PT. Arfin Goweb Indonesia</p>
       </div>
       <div class="form">
-        <form action="/">
+        <form action="/" name="myForm" onsubmit="return validateForm()">
           <p for="">Username</p>
-          <input type="text" name="username" placeholder="Input your username..." />
+          <input type="text" name="username" placeholder="Input your username..." value="" />
           <p for="">Password</p>
-          <input type="text" name="username" placeholder="Input your password..." />
+          <input type="password" name="password" placeholder="Input your password..." value="" />
+          <div class="btn">
+            <button type="submit">Login</button>
+          </div>
         </form>
-        <div class="btn">
-          <button type="submit" onclick="window.location.href='../Dashboard/'">Login</button>
-        </div>
         <div class="footer">
-          <p>www.gowebindonesia.co.id</p>
+          <p onclick="window.location.href='../Dashboard/'">www.gowebindonesia.co.id</p>
         </div>
       </div>
     </div>
-
+    <script src="https://code.iconify.design/iconify-icon/1.0.7/iconify-icon.min.js"></script>
     <script src="../../script/script.js"></script>
+    <script>
+      function validateForm() {
+        var username = document.forms["myForm"]["username"].value;
+        var password = document.forms["myForm"]["password"].value;
+
+        if (username == "" && password == "") {
+          showEmptyAlert();
+          return false;
+        } else if (username == "" && password != "") {
+          showEmptyAlert();
+          return false;
+        } else if (username != "" && password == "") {
+          showEmptyAlert();
+          return false;
+        }
+      }
+      var emptyAlert = document.getElementById("emptyAlert");
+      function showEmptyAlert() {
+        emptyAlert.style.display = "block";
+      }
+      function closeEmptyAlert() {
+        emptyAlert.style.display = "none";
+      }
+    </script>
   </body>
 </html>

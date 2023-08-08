@@ -59,12 +59,12 @@ body {
 }
 
 .content .item {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 3fr));
   color: #fff;
   font-weight: 400;
   text-align: center;
-  display: flex;
   gap: 0.5rem;
-  /* margin-left: -1.5rem; */
 }
 
 .content .item2 {
@@ -89,17 +89,17 @@ body {
   /* margin: -1.5rem 0rem -1.5rem 0rem; */
   background-color: #363f5e;
   border-radius: 1rem;
-  padding: 1.5rem 2rem 1rem 2rem;
+  padding: 1rem 1rem 1rem 1rem;
 }
 .sub-item2 {
   background-color: #ffb053;
   border-radius: 1rem;
-  padding: 1.5rem 2rem 1rem 2rem;
+  padding: 1rem 1rem 1rem 1rem;
 }
 .sub-item3 {
   background-color: #4e53c9;
   border-radius: 1rem;
-  padding: 1.5rem 2rem 1rem 2rem;
+  padding: 1rem 1rem 1rem 1rem;
 }
 .sub-item iconify-icon {
   background-color: #ffffff41;
