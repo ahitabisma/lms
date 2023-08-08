@@ -13,7 +13,8 @@
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
       integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
       crossorigin="anonymous"
-      referrerpolicy="no-referrer" />
+      referrerpolicy="no-referrer"
+    />
   </head>
   <body>
     <!-- Loader -->
@@ -24,10 +25,19 @@
     </div>
 
     <div class="container">
-      <div class="header">
-        <iconify-icon icon="octicon:arrow-left-16"></iconify-icon>
-        <p>Summary</p>
+      <!-- Header -->
+      <div class="header-nav">
+        <div class="icon">
+          <a href="#">
+            <i class="fa-solid fa-arrow-left fa-xl" style="color: #000"></i>
+          </a>
+        </div>
+        <div class="title">
+          <p>Summary</p>
+        </div>
       </div>
+
+      <!-- isi -->
       <div class="profil">
         <img src="../../img/teacher.png" alt="" />
         <p class="name">Wagimin, S.Pd, M.Pd</p>
@@ -58,8 +68,12 @@
       </div>
       <div class="nav">
         <p class="nav-active">Topik</p>
-        <p>Materi</p>
-        <p>Files</p>
+        <a href="../Guru/summary-materi.html">
+          <p>Materi</p>
+        </a>
+        <a href="../Guru/summary-files.html">
+          <p>Files</p>
+        </a>
       </div>
       <a href="../Ujian/" style="text-decoration: none; color: inherit">
         <div class="ujian">
@@ -73,8 +87,7 @@
       <div class="materi">
         <iconify-icon icon="solar:folder-with-files-bold" style="font-size: 1.5rem"></iconify-icon>
         <div>
-          <p>Ujian Uji Coba Ke 1</p>
-          <p>Deskripsi</p>
+          <p>Materi Pertemuan 1.pdf</p>
         </div>
       </div>
       <!-- Bar -->
