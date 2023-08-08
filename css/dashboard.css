@@ -222,12 +222,12 @@ body {
 .terbaru .cari .box {
   display: flex;
   align-items: center;
-  height: 36px;
+  height: 48px;
   border-radius: 10px;
   outline: none;
   border: none;
   background-color: red;
-  padding: 5px 0 5px 10px;
+  padding: 10px 0 10px 10px;
   width: 80%;
   box-sizing: border-box;
   background-color: #ededed;
@@ -237,8 +237,8 @@ body {
 }
 
 .terbaru .cari .box .input input[type="text"] {
-  height: 34px;
-  background-color: transparent;
+  height: 48px;
+  background-color: red;
   outline: none;
   border: none;
   border-radius: 10px;
