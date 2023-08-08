@@ -96,6 +96,7 @@ body {
   background-color: #ededed;
   margin: 24px 0;
 }
+
 .body-content .search .input {
   width: 100%;
 }
@@ -108,10 +109,17 @@ body {
   border-radius: 10px;
   width: 100%;
 }
+
 /* Bagian Daftar guru */
 
 .body-content a {
   text-decoration: none;
+  transition: 0.1 ease;
+}
+
+
+.body-content a:hover {
+  transform: scale(1.015);
 }
 
 .body-content .box1 {
@@ -132,13 +140,16 @@ body {
   margin: 0 0 10px 0;
 }
 
+
 .body-content .content {
   display: flex;
   align-items: center;
   padding: 15px;
   box-sizing: border-box;
   justify-content: space-between;
+
 }
+
 
 .body-content .guru .content .nama {
   display: flex;

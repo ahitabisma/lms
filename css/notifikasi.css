@@ -46,6 +46,12 @@ body {
     margin: 0 0;
     border-top: 1px solid rgba(164, 168, 173, 0.25);
     border-bottom: 1px solid rgba(164, 168, 173, 0.25);
+    transition: 0.1s ease;
+}
+
+.wrapper:hover {
+    transform: scale(1.015);
+    background-color: #E1E4EE;
 }
 
 /* isi Notifikasi (Ikon dan Keterangan) */
