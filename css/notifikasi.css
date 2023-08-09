@@ -32,6 +32,7 @@ body {
 /* Body Notifikasi */
 .container .notifikasi {
     margin: 70px 0 100px 0;
+    box-sizing: border-box;
 }
 
 .container .notifikasi a {
@@ -42,6 +43,7 @@ body {
 .container .notifikasi .label {
 
     margin: 20px;
+    font-size: 16px;
 }
 
 /* Pembungkus Per Notifikasi  */
@@ -134,4 +136,22 @@ body {
     position: relative;
     right: 15px;
     bottom: 10px;
+}
+
+@media (min-width:768px) {
+    .header {
+        font-size: 18px;
+    }
+
+    .container .notifikasi .label {
+        font-size: 18px;
+    }
+
+    .container .notifikasi .wrapper .content .keterangan p:first-child {
+        font-size: 16px;
+    }
+
+    .container .notifikasi .wrapper .content .keterangan p:last-child {
+        font-size: 13px;
+    }
 }

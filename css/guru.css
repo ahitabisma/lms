@@ -170,7 +170,6 @@ body {
   color: #fff;
   font-size: 10px;
   font-style: normal;
-
   line-height: normal;
   width: 60%;
 }
@@ -216,4 +215,50 @@ body {
 .bar a .active {
   color: #4f35ca;
   filter: drop-shadow(0 5px 2px #a4a8ad);
+}
+
+@media(min-width:768px) {
+  .header {
+    font-size: 18px;
+  }
+
+  .container .top-body .content p:first-child {
+
+    font-size: 16px;
+
+  }
+
+  .container .top-body .content p:last-child {
+
+    font-size: 20px;
+
+  }
+
+  .container .top-body img {
+    left: 30px;
+  }
+
+  .body-content .guru .content .nama p:first-child {
+
+    font-size: 20px;
+
+  }
+
+  .body-content .guru .content .nama p:last-child {
+
+    font-size: 14px;
+
+  }
+
+  .body-content .content {
+    padding: 20px;
+
+  }
+
+  .body-content .guru .content .foto img {
+    width: 120px;
+    height: 120px;
+    border-radius: 60;
+  }
+
 }
