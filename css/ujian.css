@@ -66,14 +66,14 @@ body {
 .modal-page .tombol button.batal {
   border: none;
   background-color: #fff;
-  color: #4f35ca;
+  color: rgba(0, 127, 255, 1);
   font-size: 16px;
   font-weight: 700;
   padding: 8px 16px;
 }
 
 .modal-page .tombol button.batal:hover {
-  background: rgba(79, 53, 202, 0.2);
+  background: rgba(0, 127, 255, 0.2);
   color: white;
   border-radius: 10px;
   padding: 8px 16px;
@@ -84,14 +84,14 @@ body {
   border: none;
   border-radius: 10px;
   padding: 8px 16px;
-  background-color: #4f35ca;
+  background-color: rgba(0, 127, 255, 1);
   color: #fff;
   font-size: 16px;
   font-weight: 700;
 }
 
 .modal-page .tombol button.quit:hover {
-  background: rgba(79, 53, 202, 0.7);
+  background: rgba(0, 127, 255, 0.7);
   transition: 0.2s;
 }
 
@@ -165,7 +165,7 @@ body {
 .header .bawah button.active {
   font-size: 16px;
   font-weight: 600;
-  color: #4e53c9;
+  color: #007fff;
   text-decoration: underline;
 }
 
@@ -195,7 +195,7 @@ body {
 
 .isi .tab-content .list .kotak {
   border-radius: 8px;
-  border: 2px solid rgba(53, 115, 249, 0.15);
+  border: 2px solid rgba(0, 127, 255, 0.2);
   background: #fff;
   padding: 20px 28px;
   box-sizing: border-box;
@@ -248,11 +248,11 @@ body {
 
 .list .kotak .jawaban .pilihan input[type="radio"]:checked + label {
   border-radius: 10px;
-  background: rgba(155, 164, 197, 0.5);
+  background: rgba(0, 127, 255, 0.2);
 }
 .list .kotak .jawaban .pilihan input[type="radio"]:checked + label:before {
-  background: #b3b7bc;
-  border: 1px solid #b3b7bc;
+  background: rgba(0, 127, 255, 0.4);
+  border: 1px solid rgba(0, 127, 255, 0.2);
   outline: none;
 }
 
@@ -265,7 +265,7 @@ body {
 
 .list-essay .kotak {
   border-radius: 8px;
-  border-left: 5px solid #4f35ca;
+  border-left: 5px solid rgba(0, 127, 255, 1);
   background: #fff;
   box-shadow: 0px 0px 4px 0px rgba(0, 0, 0, 0.25);
   padding: 20px 28px;
@@ -303,7 +303,7 @@ body {
   align-items: center;
   flex-shrink: 0;
   border-radius: 10px;
-  background: #4f35ca;
+  background: rgba(0, 127, 255, 1);
   outline: none;
   border: none;
   color: #ffff;
@@ -312,19 +312,19 @@ body {
 }
 
 .list-essay .kotak button:hover {
-  background: rgba(79, 53, 202, 0.7);
+  background: rgba(0, 127, 255, 0.6);
   transition: 0.2s;
 }
 
 .list-essay .kotak textarea:focus {
   outline: none;
-  border: 2px solid rgba(79, 53, 202, 0.25);
+  border: 2px solid rgba(0, 127, 255, 0.2);
   background: #f5f5f5;
 }
 
 .quiz-navigasi {
   border-radius: 8px;
-  border: 2px solid rgba(53, 115, 249, 0.15);
+  border: 2px solid rgba(0, 127, 255, 0.2);
   background: #fff;
   padding: 20px 20px;
   box-sizing: border-box;
@@ -341,7 +341,7 @@ body {
 .quiz-navigasi button {
   text-decoration: none;
   color: black;
-  background-color: rgba(179, 183, 188, 0.4);
+  background-color: rgba(179, 183, 188, 0.3);
   border-radius: 99px;
   width: 30px;
   height: 30px;
@@ -354,7 +354,7 @@ body {
 }
 
 .quiz-navigasi button.active {
-  background-color: rgba(78, 83, 201, 0.5);
+  background-color: rgba(0, 127, 255, 0.8);
   color: #fff;
 }
 
@@ -406,7 +406,7 @@ body {
 .footer .navigasi button {
   border: none;
   background: transparent;
-  color: #4e53c9;
+  color: rgba(0, 127, 255, 1);
 }
 
 .footer .navigasi button:hover {

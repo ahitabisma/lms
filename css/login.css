@@ -1,7 +1,7 @@
 body {
   width: 100vwh;
   height: 100vh;
-  background-color: #4f35ca;
+  background-color: rgba(0, 127, 255, 1);
 }
 
 .ornamen1 {
@@ -87,7 +87,7 @@ input {
   color: black;
 }
 input:focus {
-  border: #4f35ca 2px solid;
+  border: rgba(0, 127, 255, 1) 2px solid;
 }
 .btn {
   text-align: center;
@@ -98,7 +98,7 @@ button {
   margin-top: 1rem;
   padding: 13px;
   width: 65%;
-  background-color: #4f35ca;
+  background-color: rgba(0, 127, 255, 1);
   border-radius: 11px;
   border: none;
   color: white;

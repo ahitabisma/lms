@@ -4,7 +4,7 @@ body {
   background-color: #fff;
 }
 .header {
-  background-color: #4f35ca;
+  background-color: rgba(0, 127, 255, 1);
   padding: 1rem 0rem 1rem 0rem;
   text-align: center;
   color: #fff;
@@ -20,7 +20,7 @@ body {
 }
 .content {
   padding: 0rem 0rem 0rem 0rem;
-  background-color: #4f35ca;
+  background-color: rgba(0, 127, 255, 1);
   border-radius: 0rem 0rem 1.875rem 1.875rem;
 }
 .content .sub-content {
@@ -176,7 +176,7 @@ body {
 }
 
 .bar a:hover iconify-icon {
-  color: #4f35ca;
+  color: #007fff;
   filter: drop-shadow(0 5px 2px #a4a8ad);
 }
 
@@ -185,7 +185,7 @@ body {
 }
 
 .bar a .active {
-  color: #4f35ca;
+  color: #007fff;
   filter: drop-shadow(0 5px 2px #a4a8ad);
 }
 

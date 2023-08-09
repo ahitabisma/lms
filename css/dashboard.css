@@ -80,7 +80,7 @@ body {
 }
 
 .modal .pilih input[type="radio"]:checked + label {
-  background-color: #4f35ca;
+  background-color: #007fff;
   color: white;
   border: none;
 }
@@ -125,7 +125,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 10px 0 0 0;
+  padding: 8px 0 0 0;
 }
 
 .header .bawah {
@@ -157,7 +157,7 @@ body {
 .kotak-ujian {
   display: flex;
   gap: 5px;
-  background-color: #0054ce;
+  background-color: #007fff;
   border-radius: 20px;
   margin: auto;
   padding: 25px 20px;
@@ -196,7 +196,7 @@ body {
   align-items: center;
   width: 100px;
   height: 32px;
-  background-color: #ffc685;
+  background-color: #FFD24C;
   font-size: 12px;
   font-weight: 800;
   border-radius: 10px;
@@ -347,7 +347,7 @@ body {
 }
 
 .bar a:hover iconify-icon {
-  color: #4f35ca;
+  color: #007fff;
   filter: drop-shadow(0 5px 2px #a4a8ad);
 }
 
@@ -356,7 +356,7 @@ body {
 }
 
 .bar a .active {
-  color: #4f35ca;
+  color: #007fff;
   filter: drop-shadow(0 5px 2px #a4a8ad);
 }
 
