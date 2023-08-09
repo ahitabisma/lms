@@ -228,9 +228,9 @@ body {
   border: none;
   background-color: red;
   padding: 10px 0 10px 10px;
+  background-color: #ededed;
   width: 80%;
   box-sizing: border-box;
-  background-color: #ededed;
 }
 .terbaru .cari .box .input {
   width: 100%;
