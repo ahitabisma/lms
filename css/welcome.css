@@ -1,5 +1,5 @@
 body {
-    background-color: #4F35CA;
+    background-color: rgba(0, 127, 255, 1);
 }
 
 .container {
@@ -60,7 +60,7 @@ body {
 }
 
 .container .box .button a {
-    background-color: #4F35CA;
+    background-color: rgba(0, 127, 255, 1);
     color: #fff;
     padding: 12px 30px;
     border-radius: 50px;
