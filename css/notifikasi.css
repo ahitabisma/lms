@@ -41,6 +41,7 @@ body {
 /* Label Terbaru dan Bulanan */
 .container .notifikasi .label {
     margin: 20px;
+    font-size: 16px;
 }
 
 /* Pembungkus Per Notifikasi  */
@@ -131,4 +132,28 @@ body {
     position: relative;
     right: 15px;
     bottom: 10px;
+}
+
+
+@media (min-width:768px) {
+    .header {
+        font-size: 18px;
+    }
+
+    .container .notifikasi .label {
+        font-size: 18px;
+    }
+
+    .container .notifikasi .wrapper .content .keterangan p:first-child {
+
+        font-size: 16px;
+
+    }
+
+    .container .notifikasi .wrapper .content .keterangan p:last-child {
+
+        font-size: 13px;
+
+    }
+
 }
