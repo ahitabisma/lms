@@ -110,7 +110,7 @@ body {
   background-color: #fff;
   width: 85%;
   padding: 0 7.5%;
-  height: 150px;
+  height: 100px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -125,7 +125,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 20px 0 0 0;
+  padding: 10px 0 0 0;
 }
 
 .header .bawah {
@@ -133,31 +133,31 @@ body {
   width: 100%;
   justify-content: space-between;
   align-items: center;
-  padding: 15px 0 0 0;
+  padding: 10px 0 5px 0;
 }
 
 .header .bawah p {
-  font-weight: 900;
+  font-weight: 700;
   font-size: 20px;
 }
 
 .header .bawah img {
   border-radius: 99px;
-  width: 56px;
+  width: 45px;
 }
 
 /* Isi */
 .isi {
   width: 85%;
   height: max-content;
-  margin: 170px auto auto auto;
+  margin: 130px auto auto auto;
   padding-bottom: 100px;
 }
 
 .kotak-ujian {
   display: flex;
   gap: 5px;
-  background-color: #4f35ca;
+  background-color: #0054ce;
   border-radius: 20px;
   margin: auto;
   padding: 25px 20px;
