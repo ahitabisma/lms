@@ -44,12 +44,13 @@ body {
   text-align: center;
 }
 .sub-content .kelas p {
-  background-color: #e7e3ff;
+  background-color: rgba(0, 127, 255, 0.3);
   border-radius: 0.625rem;
   padding: 0.475rem 0.4125rem;
+  color:
 }
 .sub-content .kelas .active {
-  background-color: #4e53c9;
+  background-color: rgba(0, 127, 255, 1);
   color: #fff;
   border-radius: 0.625rem;
   padding: 0.475rem 0.4125rem;
@@ -69,7 +70,7 @@ body {
   text-align: left;
 }
 .jenis iconify-icon {
-  color: #4e53c9;
+  color: rgba(0, 127, 255, 1);
   font-size: 2.5rem;
 }
 .nis {
@@ -78,7 +79,7 @@ body {
   padding: 0.35rem 9rem 0.35rem 0.5rem;
 }
 .nis iconify-icon {
-  color: #4e53c9;
+  color: rgba(0, 127, 255, 1);
   font-size: 2.5rem;
   padding-left: 0.25rem;
 }
@@ -92,7 +93,7 @@ body {
 .alamat iconify-icon {
   font-size: 2.3rem;
   padding-left: 1rem;
-  color: #4e53c9;
+  color: rgba(0, 127, 255, 1);
 }
 .jenis p {
   padding-top: 0.75rem;
