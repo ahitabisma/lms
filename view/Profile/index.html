@@ -16,13 +16,13 @@
     </div>
     <div class="container">
       <!-- alert -->
-      <!-- <div class="alert" id="Alert">
+      <!-- <div class="alert" id="AlertKelas">
         <div class="box">
           <iconify-icon icon="solar:danger-triangle-bold" style="font-size: 5rem"></iconify-icon>
           <p>Anda yakin ingin mengganti kelas?</p>
           <div class="btn">
             <div class="btn1">
-              <button onclick="">Kembali</button>
+              <button onclick="closeAlert()">Kembali</button>
             </div>
             <div class="btn2">
               <button>Ya</button>
@@ -41,7 +41,7 @@
           <div class="kelas">
             <p>Kelas X-PK</p>
             <p>Kelas XI-PK</p>
-            <p class="active">Kelas XII-PK</p>
+            <p class="active" onclick="showAlert">Kelas XII-PK</p>
           </div>
         </div>
       </div>
@@ -93,6 +93,14 @@
 
     <script src="../../script/script.js"></script>
     <script src="https://code.iconify.design/iconify-icon/1.0.7/iconify-icon.min.js"></script>
-    <script></script>
+    <script type="text/javascript">
+      const modal = document.getElementById("AlertKelas");
+      function showAlert() {
+        modal.style.display = "block";
+      }
+      function closeAlert() {
+        modal.style.display = "none";
+      }
+    </script>
   </body>
 </html>

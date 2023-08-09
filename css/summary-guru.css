@@ -7,6 +7,7 @@ body {
   height: 100%;
   box-sizing: border-box;
   background-color: #fff;
+  padding-bottom: 14rem;
 }
 /* Header */
 .header-nav {
@@ -93,7 +94,7 @@ body {
   color: #fff;
   font-weight: 400;
   text-align: center;
-  gap: 0.5rem;
+  gap: 1rem;
 }
 
 .content .item2 {
@@ -115,7 +116,6 @@ body {
   font-weight: 500;
 }
 .content .sub-item {
-  /* margin: -1.5rem 0rem -1.5rem 0rem; */
   background-color: #363f5e;
   border-radius: 1rem;
   padding: 1rem 1rem 1rem 1rem;
@@ -205,7 +205,7 @@ body {
 .materi {
   background-color: #f2f2f2;
   margin: 0rem 1.81rem 1.5rem 1.81rem;
-  padding: 1rem;
+  padding: 1.5rem 1rem;
   border-radius: 0.625rem;
   display: flex;
   gap: 1rem;
@@ -222,7 +222,7 @@ body {
   padding: 0.5rem;
 }
 .materi p {
-  margin-top: 0.5rem;
+  margin-top: 0.65rem;
   font-size: 1rem;
   font-style: normal;
   font-weight: 500;
@@ -263,4 +263,32 @@ body {
 .bar a .active {
   color: #4f35ca;
   filter: drop-shadow(0 5px 2px #a4a8ad);
+}
+
+/* responsive tablet */
+@media (min-width: 768px) {
+  .header-nav {
+    font-size: 18px;
+  }
+  .profil .name {
+    font-size: 1.25rem;
+  }
+  .profil .mapel {
+    font-size: 0.7875rem;
+  }
+  .item2 p {
+    font-size: 0.975rem;
+    font-weight: 500;
+  }
+  .nav {
+    display: flex;
+    gap: 1.5rem;
+    margin: 1.75rem 1.81rem 1.75rem 1.81rem;
+    color: #b1a7a6;
+    font-size: 1.155rem;
+    font-weight: 500;
+  }
+  .nav .nav-active {
+    font-size: 1.155rem;
+  }
 }

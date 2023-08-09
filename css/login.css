@@ -33,13 +33,13 @@ body {
   width: 100vwh;
   margin: auto;
   margin-top: 5rem;
-  padding: 0rem 3rem 0rem 3rem;
   background-color: white;
   border-radius: 2rem 2rem 0rem 0rem;
 }
 .title-content {
   padding-top: 2rem;
   text-align: center;
+  padding: 0rem -3rem 0rem -3rem;
 }
 .title-content :first-child {
   font-size: 28px;
@@ -62,8 +62,9 @@ body {
 }
 
 .form {
+  padding: 0rem 4rem 0rem 3rem;
   padding-top: 3rem;
-  padding: 3rem 2rem 0rem 2rem;
+  /* padding: 3rem 2rem 0rem 2rem; */
   text-align: center;
 }
 .form p {
@@ -90,7 +91,7 @@ input:focus {
 }
 .btn {
   text-align: center;
-  margin-left: ;
+  margin-left: 1rem;
 }
 button {
   text-align: center;
@@ -111,8 +112,12 @@ button:hover {
 .footer p {
   text-align: center;
   color: #bebec9;
-  margin-top: 5rem;
+  font-size: 0.625rem;
+  font-style: normal;
+  font-weight: 800;
+  margin-top: 8rem;
   padding-bottom: 3rem;
+  letter-spacing: 0.05rem;
 }
 
 /* Empty Alert */
@@ -178,12 +183,68 @@ button:hover {
   }
 }
 
+/* responsive tablet */
 @media (min-width: 768px) {
-  .footer p {
-    margin-top: 30rem;
-    padding-bottom: 4rem;
-  }
   .container {
     width: 100vwh;
+  }
+  .title img {
+    width: 210px;
+    height: 80px;
+  }
+  .title p {
+    padding-top: 1rem;
+    color: white;
+    font-size: 22px;
+  }
+
+  .title-content :first-child {
+    font-size: 36px;
+    font-weight: bold;
+  }
+  .title-content .garis {
+    padding: 0.06rem;
+  }
+  .title-content :last-child {
+    font-size: 1rem;
+  }
+  .form p {
+    text-align: left;
+    font-size: 18px;
+    font-weight: 600;
+  }
+  input {
+    display: inline-block;
+    margin-top: 0.5rem;
+    margin-bottom: 1rem;
+    width: 100%;
+    padding: 14px;
+    outline: none;
+    border: 1px solid #bebec9;
+    border-radius: 12px;
+    background-color: #407cff14;
+    font-size: small;
+    font-weight: 500;
+    color: black;
+  }
+  button {
+    text-align: center;
+    margin-top: 1rem;
+    padding: 15px;
+    width: 65%;
+    background-color: #4f35ca;
+    border-radius: 11px;
+    border: none;
+    color: white;
+    font-weight: bold;
+    box-shadow: 0px 1px 2px 2px rgba(0, 0, 0, 0.114);
+    display: inline-block;
+  }
+
+  .footer p {
+    font-size: 1rem;
+    text-align: center;
+    margin-top: 30rem;
+    padding-bottom: 4rem;
   }
 }
