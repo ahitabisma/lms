@@ -1,8 +1,11 @@
+html,
+body {
+  overflow-x: hidden;
+}
 body {
   width: 100vwh;
   height: 100vh;
   background-color: rgba(0, 127, 255, 1);
-  overflow-x: hidden;
   position: relative;
 }
 .head {
