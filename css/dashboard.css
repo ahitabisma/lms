@@ -110,7 +110,7 @@ body {
   background-color: #fff;
   width: 85%;
   padding: 0 7.5%;
-  height: 100px;
+  height: 70px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -121,19 +121,19 @@ body {
   z-index: 1;
 }
 
-.header .goweb {
+/* .header .goweb {
   display: flex;
   justify-content: center;
   align-items: center;
   padding: 8px 0 0 0;
-}
+} */
 
 .header .bawah {
   display: flex;
   width: 100%;
   justify-content: space-between;
   align-items: center;
-  padding: 10px 0 5px 0;
+  padding: 5px 0 0 0;
 }
 
 .header .bawah p {
@@ -143,14 +143,14 @@ body {
 
 .header .bawah img {
   border-radius: 99px;
-  width: 45px;
+  width: 50px;
 }
 
 /* Isi */
 .isi {
   width: 85%;
   height: max-content;
-  margin: 130px auto auto auto;
+  margin: 85px auto auto auto;
   padding-bottom: 100px;
 }
 
@@ -160,16 +160,18 @@ body {
   background-color: #007fff;
   border-radius: 20px;
   margin: auto;
-  padding: 25px 20px;
-  box-sizing: border-box;
+  padding: 25px 20px 25px 10px;
   align-items: center;
   text-decoration: none;
   color: inherit;
+  box-sizing: border-box;
+  word-wrap: break-word;
 }
 
 .kotak-ujian img {
-  width: 80px;
+  width: 100px;
   height: 80px;
+  /* background-color: red; */
 }
 
 .kotak-ujian .keterangan {
@@ -196,7 +198,7 @@ body {
   align-items: center;
   width: 100px;
   height: 32px;
-  background-color: #FFD24C;
+  background-color: #ffd24c;
   font-size: 12px;
   font-weight: 800;
   border-radius: 10px;

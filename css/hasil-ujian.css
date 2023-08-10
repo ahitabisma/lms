@@ -5,7 +5,7 @@ body {
 
 .container {
   width: 100%;
-  height: 100%;
+  height: min-content;
   box-sizing: border-box;
   background-color: #fff;
 }
@@ -34,7 +34,7 @@ body {
 .isi {
   width: 85%;
   height: min-content;
-  margin: 120px auto 0 auto;
+  margin: 80px auto 0 auto;
   padding-bottom: 100px;
 }
 
@@ -44,7 +44,12 @@ body {
   align-items: center;
 }
 
-.isi .kiri .sparkles-1 {
+.isi .gambar img {
+  width: 240px;
+  height: 192px;
+}
+
+/* .isi .kiri .sparkles-1 {
   transform: translate(-40%, 50%);
 }
 .isi .kiri .sparkles-2 {
@@ -55,7 +60,7 @@ body {
 }
 .isi .kanan .sparkles-4 {
   transform: translate(-10%, 40%);
-}
+} */
 
 .isi .selesai p:first-child {
   color: #000;
@@ -147,6 +152,12 @@ body {
   border: 0.5px solid #000;
 }
 
+.isi .hasil .kotak .keterangan {
+  box-sizing: border-box;
+  word-wrap: break-word;
+  width: 100%;
+}
+
 .isi .hasil .kotak .keterangan .title {
   color: #000;
   font-family: Montserrat;
@@ -165,6 +176,7 @@ body {
   line-height: normal;
   background-color: #f2f2f2;
   width: max-content;
+  word-wrap: break-word;
 }
 
 .isi .hasil .kotak .garis {
