@@ -51,14 +51,14 @@ body {
 
 .container .image2 img:nth-child(1) {
   width: 135px;
-  height: 120px;
+  height: 135px;
   position: relative;
   bottom: 40px;
 }
 
 .container .image2 img:nth-child(2) {
-  width: 235px;
-  height: 285px;
+  width: 275px;
+  height: 275px;
   position: relative;
   left: 10px;
 }
@@ -78,7 +78,7 @@ body {
 }
 
 .container .image3 img:nth-child(1) {
-  width: 120px;
+  width: 160px;
   height: 170px;
   transform: rotate(31deg);
   position: relative;

@@ -48,7 +48,7 @@ body {
   background-color: rgba(0, 127, 255, 0.3);
   border-radius: 0.625rem;
   padding: 0.475rem 0.4125rem;
-  color:
+  color: ;
 }
 .sub-content .kelas .active {
   background-color: rgba(0, 127, 255, 1);
@@ -148,6 +148,9 @@ body {
 .item2 iconify-icon {
   color: #b3b7bc;
   font-size: 1.5rem;
+}
+.item2 a {
+  text-decoration: none;
 }
 .item2 p {
   color: #ff1700;

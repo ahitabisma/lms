@@ -97,7 +97,9 @@
         </a>
         <div class="garis"></div>
         <div class="item2">
-          <p>Log Out</p>
+          <a href="../../index.html">
+            <p>Log Out</p>
+          </a>
           <iconify-icon icon="ep:arrow-right-bold"></iconify-icon>
         </div>
       </div>
@@ -129,6 +131,35 @@
       var kelasXI = document.getElementById("kelas-xi");
       var kelasXII = document.getElementById("kelas-xii");
 
+      function showAlertX() {
+        alertKelasX.style.display = "block";
+      }
+      function showAlertXI() {
+        alertKelasXI.style.display = "block";
+      }
+      function showAlertXII() {
+        alertKelasXII.style.display = "block";
+      }
+      function closeAlert() {
+        alertKelasX.style.display = "none";
+        alertKelasXI.style.display = "none";
+        alertKelasXII.style.display = "none";
+      }
+      function redirectingAlertX() {
+        document.querySelector(".active").classList.remove("active");
+        kelasX.classList.add("active");
+        closeAlert();
+      }
+      function redirectingAlertXI() {
+        document.querySelector(".active").classList.remove("active");
+        kelasXI.classList.add("active");
+        closeAlert();
+      }
+      function redirectingAlertXII() {
+        document.querySelector(".active").classList.remove("active");
+        kelasXII.classList.add("active");
+        closeAlert();
+      }
       function showAlertX() {
         alertKelasX.style.display = "block";
       }
