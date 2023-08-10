@@ -51,7 +51,7 @@ body {
 .content {
   margin-top: 7rem;
   display: inline-flex flex;
-  background-color: #4e53c9;
+  background-color: rgba(0, 127, 255, 1);
   height: 18rem;
   margin-left: 2rem;
   margin-right: 2rem;
@@ -150,7 +150,7 @@ img {
   text-align: center;
 }
 button {
-  background-color: #4e53c9;
+  background-color: rgba(0, 127, 255, 1);
   border: none;
   padding: 0.5rem 1rem;
   border-radius: 0.625rem;
@@ -159,5 +159,5 @@ button {
   font-size: 0.75rem;
 }
 button:hover {
-  background-color: #4e52c9d7;
+  background-color: rgba(0, 127, 255, 0.6);
 }

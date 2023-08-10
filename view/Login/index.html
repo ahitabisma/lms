@@ -21,7 +21,17 @@
         <div class="box">
           <iconify-icon icon="system-uicons:cross-circle" style="font-size: 4.5rem"></iconify-icon>
           <p>Login Gagal</p>
-          <button onclick="closeEmptyAlert()">kembali</button>
+          <button onclick="closeEmptyAlert()">Kembali</button>
+        </div>
+      </div>
+
+      <div>
+        <div class="success-alert" id="successAlert">
+          <div class="box2">
+            <iconify-icon icon="system-uicons:check-circle-outside" style="font-size: 4rem"></iconify-icon>
+            <p>Login Berhasil</p>
+            <button>Redirecting</button>
+          </div>
         </div>
       </div>
       <div class="ornamen1">
@@ -73,14 +83,28 @@
         } else if (username != "" && password == "") {
           showEmptyAlert();
           return false;
+        } else {
+          // Simulate successful login
+          showSuccessAlert();
+          setTimeout(function () {
+            redirectToDashboard(); // Replace this with actual redirection logic
+          }, 1000); // Simulating a delay before showing success message and redirecting
+          return false; // Prevent form submission for this example
         }
       }
       var emptyAlert = document.getElementById("emptyAlert");
+      var success = document.getElementById("successAlert");
       function showEmptyAlert() {
         emptyAlert.style.display = "block";
       }
       function closeEmptyAlert() {
         emptyAlert.style.display = "none";
+      }
+      function showSuccessAlert() {
+        successAlert.style.display = "block";
+      }
+      function redirectToDashboard() {
+        window.location.href = "../Dashboard/index.html";
       }
     </script>
   </body>

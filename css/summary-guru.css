@@ -126,7 +126,7 @@ body {
   padding: 1rem 1rem 1rem 1rem;
 }
 .sub-item3 {
-  background-color: #4e53c9;
+  background-color: rgba(0, 127, 255, 1);
   border-radius: 1rem;
   padding: 1rem 1rem 1rem 1rem;
 }
@@ -252,7 +252,7 @@ body {
 }
 
 .bar a:hover iconify-icon {
-  color: #4f35ca;
+  color: #007fff;
   filter: drop-shadow(0 5px 2px #a4a8ad);
 }
 
@@ -261,7 +261,7 @@ body {
 }
 
 .bar a .active {
-  color: #4f35ca;
+  color: #007fff;
   filter: drop-shadow(0 5px 2px #a4a8ad);
 }
 
