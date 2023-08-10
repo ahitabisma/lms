@@ -1,38 +1,57 @@
+html,
+body {
+  overflow-x: hidden;
+}
 body {
   width: 100vwh;
   height: 100vh;
   background-color: rgba(0, 127, 255, 1);
-}
-
-.ornamen1 {
   position: relative;
 }
-.ornamen2 {
-  text-align: right;
+.head {
+  width: 100%;
 }
-.ornamen2 .img {
-  position: absolute;
+.ornamen1 {
+  margin-top: 5rem;
+  position: relative;
+  margin-left: -3.5rem;
+  transform: rotate(30deg);
+  display: block;
+}
+.ornamen1 img {
+  width: 150px;
+  height: 150px;
+}
+.ornamen2 {
+  justify-content: flex-end;
+  position: relative;
   display: flex;
+  margin-top: -12rem;
+  margin-right: -5rem;
+}
+.ornamen2 img {
+  width: 165px;
+  height: 165px;
 }
 .title {
-  margin-top: -19rem;
-  padding-top: 5rem;
+  margin-top: -8rem;
   text-align: center;
 }
 .title img {
-  width: 190px;
-  height: 77px;
+  width: 11.875rem;
+  height: 4.8125rem;
 }
 .title p {
-  padding-top: 1rem;
+  padding-top: 1.85rem;
   color: white;
-  font-size: 16px;
+  font-size: 1.25rem;
 }
 
 .container {
+  display: block;
   width: 100vwh;
   margin: auto;
-  margin-top: 5rem;
+  margin-top: 4rem;
   background-color: white;
   border-radius: 2rem 2rem 0rem 0rem;
 }
@@ -115,7 +134,7 @@ button:hover {
   font-size: 0.625rem;
   font-style: normal;
   font-weight: 800;
-  margin-top: 8rem;
+  margin-top: 10rem;
   padding-bottom: 3rem;
   letter-spacing: 0.05rem;
 }
@@ -248,17 +267,23 @@ button:hover {
 
 /* responsive tablet */
 @media (min-width: 768px) {
+  .ornamen1 {
+    margin-top: 12rem;
+    position: relative;
+    margin-left: -5rem;
+    transform: rotate(30deg);
+    display: block;
+  }
   .container {
     width: 100vwh;
   }
-  .title img {
-    width: 210px;
-    height: 80px;
+  .title {
+    margin-top: -18rem;
+    text-align: center;
   }
-  .title p {
-    padding-top: 1rem;
-    color: white;
-    font-size: 22px;
+  .title img {
+    width: 11.875rem;
+    height: 4.8125rem;
   }
 
   .title-content :first-child {
@@ -295,7 +320,6 @@ button:hover {
     margin-top: 1rem;
     padding: 15px;
     width: 65%;
-    background-color: #4f35ca;
     border-radius: 11px;
     border: none;
     color: white;

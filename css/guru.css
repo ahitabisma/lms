@@ -42,6 +42,8 @@ body {
   justify-content: space-between;
   align-items: center;
   height: 125px;
+  box-sizing: border-box;
+  /* position: relative; */
 }
 
 .container .top-body img {
@@ -55,8 +57,10 @@ body {
 .container .top-body .content {
   display: flex;
   flex-direction: column;
-  padding: 0 10px;
+  justify-content: center;
+  padding: 0 10px 0 0;
   box-sizing: border-box;
+  position: relative;
 }
 
 .container .top-body .content p:first-child {
@@ -76,6 +80,15 @@ body {
   margin-top: 5px;
 }
 
+.container .top-body .content img.idea {
+  /* background-color: red; */
+  width: 60px;
+  height: 55px;
+  position: absolute;
+  top: 120%;
+  right: 0;
+}
+
 /* Akhir bagian Quotes */
 
 .container .body-content {
@@ -91,11 +104,10 @@ body {
   border-radius: 10px;
   outline: none;
   border: none;
-  background-color: red;
   padding: 10px 0 10px 10px;
   box-sizing: border-box;
   background-color: #ededed;
-  margin: 24px 0;
+  margin: 40px 0 24px 0;
 }
 
 .body-content .search .input {
@@ -117,7 +129,6 @@ body {
   text-decoration: none;
   transition: 0.1 ease;
 }
-
 
 .body-content a:hover {
   transform: scale(1.015);
@@ -141,16 +152,13 @@ body {
   margin: 0 0 10px 0;
 }
 
-
 .body-content .content {
   display: flex;
   align-items: center;
   padding: 15px;
   box-sizing: border-box;
   justify-content: space-between;
-
 }
-
 
 .body-content .guru .content .nama {
   display: flex;
@@ -219,42 +227,38 @@ body {
   filter: drop-shadow(0 5px 2px #a4a8ad);
 }
 
-@media(min-width:768px) {
+@media (min-width: 768px) {
   .header {
     font-size: 18px;
   }
 
   .container .top-body .content p:first-child {
-
     font-size: 16px;
-
   }
 
   .container .top-body .content p:last-child {
-
     font-size: 20px;
-
   }
 
   .container .top-body img {
     left: 30px;
   }
 
+  .container .top-body .content img.idea {
+    top: 165%;
+    left: 87.5%;
+  }
+
   .body-content .guru .content .nama p:first-child {
-
     font-size: 20px;
-
   }
 
   .body-content .guru .content .nama p:last-child {
-
     font-size: 14px;
-
   }
 
   .body-content .content {
     padding: 20px;
-
   }
 
   .body-content .guru .content .foto img {
@@ -262,5 +266,12 @@ body {
     height: 120px;
     border-radius: 60;
   }
+}
 
+@media (max-width: 320px) {
+  .container .top-body .content img.idea {
+    top: 105%;
+    width: 50px;
+    height: 45px;
+  }
 }
