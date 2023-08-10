@@ -184,9 +184,10 @@ body {
 .body-content .guru .content .foto img {
   width: 80px;
   height: 80px;
-  border-radius: 100px;
+  border-radius: 80px;
   border: 2px solid #fff;
   box-sizing: border-box;
+  object-fit: cover;
 }
 
 /* Bar */
