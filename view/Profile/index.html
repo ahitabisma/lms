@@ -16,7 +16,7 @@
     </div>
     <div class="container">
       <!-- alert -->
-      <div class="alert" id="alertKelas">
+      <div class="alert" id="alertKelasX">
         <div class="box">
           <iconify-icon icon="solar:danger-triangle-bold" style="font-size: 5rem"></iconify-icon>
           <p>Anda yakin ingin mengganti kelas?</p>
@@ -25,7 +25,35 @@
               <button onclick="closeAlert()">Tidak</button>
             </div>
             <div class="btn2">
-              <button onclick="redirectingAlert()">Ya</button>
+              <button onclick="redirectingAlertX()">Ya</button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="alert" id="alertKelasXI">
+        <div class="box">
+          <iconify-icon icon="solar:danger-triangle-bold" style="font-size: 5rem"></iconify-icon>
+          <p>Anda yakin ingin mengganti kelas?</p>
+          <div class="btn">
+            <div class="btn1">
+              <button onclick="closeAlert()">Tidak</button>
+            </div>
+            <div class="btn2">
+              <button onclick="redirectingAlertXI()">Ya</button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="alert" id="alertKelasXII">
+        <div class="box">
+          <iconify-icon icon="solar:danger-triangle-bold" style="font-size: 5rem"></iconify-icon>
+          <p>Anda yakin ingin mengganti kelas?</p>
+          <div class="btn">
+            <div class="btn1">
+              <button onclick="closeAlert()">Tidak</button>
+            </div>
+            <div class="btn2">
+              <button onclick="redirectingAlertXII()">Ya</button>
             </div>
           </div>
         </div>
@@ -39,9 +67,9 @@
           <img src="../../img/people 1.png" alt="" />
           <p>ADIB IBRA MAULANA</p>
           <div class="kelas">
-            <p>Kelas X-PK</p>
-            <p>Kelas XI-PK</p>
-            <p class="active" onclick="showAlert()">Kelas XII-PK</p>
+            <p id="kelas-x" class="" onclick="showAlertX()">X-PK</p>
+            <p id="kelas-xi" class="" onclick="showAlertXI()">XI-PK</p>
+            <p id="kelas-xii" class="active" onclick="showAlertXII()">XII-PK</p>
           </div>
         </div>
       </div>
@@ -94,15 +122,41 @@
     <script src="../../script/script.js"></script>
     <script src="https://code.iconify.design/iconify-icon/1.0.7/iconify-icon.min.js"></script>
     <script type="text/javascript">
-      var alertKelas = document.getElementById("alertKelas");
-      function showAlert() {
-        alertKelas.style.display = "block";
+      var alertKelasX = document.getElementById("alertKelasX");
+      var alertKelasXI = document.getElementById("alertKelasXI");
+      var alertKelasXII = document.getElementById("alertKelasXII");
+      var kelasX = document.getElementById("kelas-x");
+      var kelasXI = document.getElementById("kelas-xi");
+      var kelasXII = document.getElementById("kelas-xii");
+
+      function showAlertX() {
+        alertKelasX.style.display = "block";
+      }
+      function showAlertXI() {
+        alertKelasXI.style.display = "block";
+      }
+      function showAlertXII() {
+        alertKelasXII.style.display = "block";
       }
       function closeAlert() {
-        alertKelas.style.display = "none";
+        alertKelasX.style.display = "none";
+        alertKelasXI.style.display = "none";
+        alertKelasXII.style.display = "none";
       }
-      function redirectingAlert() {
-        window.location.href = "../../view/profile/index.html";
+      function redirectingAlertX() {
+        document.querySelector(".active").classList.remove("active");
+        kelasX.classList.add("active");
+        closeAlert();
+      }
+      function redirectingAlertXI() {
+        document.querySelector(".active").classList.remove("active");
+        kelasXI.classList.add("active");
+        closeAlert();
+      }
+      function redirectingAlertXII() {
+        document.querySelector(".active").classList.remove("active");
+        kelasXII.classList.add("active");
+        closeAlert();
       }
     </script>
   </body>

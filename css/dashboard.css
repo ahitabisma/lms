@@ -288,6 +288,7 @@ body {
   border-radius: 99px;
   width: 60px;
   height: 60px;
+  object-fit: cover;
 }
 
 .list .deskripsi {
@@ -314,17 +315,10 @@ body {
 }
 
 .deskripsi .mapel {
-  font-size: 16px;
-  font-weight: 500;
-}
-
-.deskripsi .lokasi {
-  display: flex;
-  gap: 5px;
-  align-items: center;
-  color: #c0c0c0;
   font-size: 12px;
   font-weight: 500;
+  margin: 5px 0 0 0;
+  line-height: 16px;
 }
 
 /* Bar */
@@ -463,8 +457,7 @@ body {
   .deskripsi .guru p:nth-child(2) {
     font-size: 14px;
   }
-
-  .deskripsi .lokasi {
-    font-size: 14px;
+  .deskripsi .mapel {
+    font-size: 16px;
   }
 }
